@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganak: The Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="Container">
+        <div class="textContainer">
+            <div class="t1"><h1>Ganak</h1></div>
+            <div class="t2"><h3>The Calculator<br>Making things Easier</h3></div>
+            
+        </div>
+        <div class="calculator ">
+            <div class="theme-toggler active">
+                <i class="toggler-icon"></i>
+            </div>
+            <div class="result">
+                <div class="history">
+                   <p id="history-value"></p>
+                </div>
+               <div class="display-screen">
+                <p id="display"></p>
+            </div>
+        </div>
+            
+        <div class="buttons">
+            <table>
+                
+                <tr>
+                <td><button class="btn-op-m" id="AC">&comp;</button></td>
+                <td><button class="btn-op-m" id="backspace"><</button></td>
+                <td><button class="btn-op-m" id="%" onclick="percent()">%</button></td>
+                <td><button class="btn-op" id="/">&divide;</button></td>
+                </tr>
+                <tr>
+                <td><button class="btn-num" id="7">7</button></td>
+                <td><button class="btn-num" id="8">8</button></td>
+                <td><button class="btn-num" id="9">9</button></td>
+                <td><button class="btn-op" id="*">x</button></td>
+                </tr>
+                <tr>
+                <td><button class="btn-num" id="4">4</button></td>
+                <td><button class="btn-num" id="5">5</button></td>
+                <td><button class="btn-num" id="6">6</button></td>
+                <td><button class="btn-op" id="-">&minus;</button></td>
+                </tr>
+                <tr>
+                <td><button class="btn-num" id="1">1</button></td>
+                <td><button class="btn-num"id="2">2</button></td>
+                <td><button class="btn-num" id="3">3</button></td>
+                <td><button class="btn-op" id="+">+</button></td>
+                </tr>
+                <tr>
+                <th colspan="2"><button class="btn-zero" id="0">0</button></th>
+                <th><button class="btn-op-m" id=".">.</button></th>
+                <th><button class="btn-op" id="=">&equals;</button></th>
+                </tr>
+                
+                
+            </table>
+        </div>
+    </div>
+<script src="calculate.js"></script>
+</body>
+</html>
