@@ -11,7 +11,7 @@ After toggling:
 ## Steps to execute this calculator ##
 * Download the entire code
 * Open up the index.html.
-          #### OR ####
+  #### OR ####
 * Click on Environments/github-pages
 ## Technologies used: ##
 * HTML
