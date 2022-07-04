@@ -1,0 +1,17 @@
+name: github pages
+
+on:
+  workflow_dispatch;
+
+jobs:
+  Dev:
+    runs-on: sonam dell PC
+    environment: Dev 
+
+
+    steps:
+      -uses: actions/checkout@v2
+
+      name: Run a script
+      run: calculate.html
+        echo "I am running a job in the Dev environment"
