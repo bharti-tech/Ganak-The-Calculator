@@ -9,10 +9,10 @@ After toggling:
 ![read2](https://user-images.githubusercontent.com/66878821/177097096-15e57441-b736-42ab-894e-a81c903d183c.PNG)
 
 ## Steps to execute this calculator ##
-*Download the entire code
-*Open up the index.html.
+* Download the entire code
+* Open up the index.html.
 ## Technologies used: ##
-*HTML
-*CSS [style/Presentation]
-*Javascript [Logic/Working of calculator]
+* HTML
+* CSS [style/Presentation]
+* Javascript [Logic/Working of calculator]
 
