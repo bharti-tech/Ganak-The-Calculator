@@ -25,3 +25,5 @@ A simple Calculator using HTML, CSS, Java Script
 - [x] CSS [style/Presentation]
 - [x] Javascript [Logic/Working of calculator]
 
+<!-- [![ GitHub stats](https://github-readme-stats.vercel.app/api?username=bharti-tech&show_icons=true&theme=gruvbox)](https://github.com/bharti-tech/github-readme-stats)
+[![Language Preferences](https://github-readme-stats.vercel.app/api/top-langs/?username=bharti-tech&layout=compact&theme=gruvbox)](https://github.com/bharti-tech/github-readme-stats) -->
